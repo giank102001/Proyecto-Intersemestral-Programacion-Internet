@@ -24,6 +24,7 @@ header {
     color: white;
     padding: 20px 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 header h1 {
@@ -40,10 +41,16 @@ header h1 {
 nav ul {
     display: flex;
     list-style: none;
+    justify-content: center;
+    width: 100%;
 }
 
 nav ul li {
     margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
 }
 
 nav ul li a {
