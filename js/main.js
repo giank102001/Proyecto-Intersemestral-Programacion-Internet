@@ -26,11 +26,12 @@ $(document).ready(function(){
             auto: true,
             pause: 5000,
             speed: 1000,
-            adaptiveHeight: true,
+            adaptiveHeight: false,
             responsive: true,
             touchEnabled: true,
             pager: true,
-            controls: true
+            controls: true,
+            preloadImages: 'all'
         });
     }
     
